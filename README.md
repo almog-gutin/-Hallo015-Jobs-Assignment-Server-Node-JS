@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h1 align="center">Hallo015 Jobs Assignment Server Node.js MySQL JS</h1>
+<h1 align="center">Hallo015 Jobs Assignment Server Node.js JS</h1>
 
 <div align="center">
   <p align="center">
