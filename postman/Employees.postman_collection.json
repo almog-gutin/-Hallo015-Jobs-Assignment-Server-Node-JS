@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "dac642c0-d8ea-469d-bf2a-cc3157880f7f",
+		"name": "Employees",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Employees: New Employee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"\",\n    \"job\": \"\",\n    \"salary\": \"\" \n}"
+				},
+				"url": {
+					"raw": "{{HOST}}:{{PORT}}/employees/new",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "{{PORT}}",
+					"path": [
+						"employees",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

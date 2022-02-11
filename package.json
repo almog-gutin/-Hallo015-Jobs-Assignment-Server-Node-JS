@@ -1,0 +1,31 @@
+{
+    "name": "hallo015-jobs-assignment-server-node-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env NODE_ENV=production node src/index.js",
+        "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+        "seed": "node seed/seed.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "config": "^3.3.7",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "mysql2": "^2.3.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.8.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.1"
+    }
+}

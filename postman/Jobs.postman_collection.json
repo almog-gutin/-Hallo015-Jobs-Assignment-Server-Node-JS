@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "6dee279d-418c-4856-a53f-129ee6af3c64",
+		"name": "Jobs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Jobs: Get Maximum Salary By Job",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:{{PORT}}/jobs/{{job}}/max-salary",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "{{PORT}}",
+					"path": [
+						"jobs",
+						"{{job}}",
+						"max-salary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jobs: Get Average Salary Of All Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:{{PORT}}jobs/avg-salary",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "{{PORT}}jobs",
+					"path": [
+						"avg-salary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jobs: Get Popularity Of All Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:{{PORT}}/jobs/popularity",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "{{PORT}}",
+					"path": [
+						"jobs",
+						"popularity"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
