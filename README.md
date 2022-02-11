@@ -51,7 +51,7 @@ It is built with Node.js and Express Framework with JavaScript. In addition the 
 **Git clone**
 
 ```
-git clone https://github.com/almog-gutin/-Hallo015-Jobs-Assignment-Server-Node-JS
+git clone https://github.com/almog-gutin/Hallo015-Jobs-Assignment-Server-Node-JS
 ```
 
 **Instructions**
